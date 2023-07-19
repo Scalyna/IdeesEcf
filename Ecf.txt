@@ -1,0 +1,9 @@
+create table Administrateur
+(
+    nom varchar(75),
+    prenom varchar(75),
+    telephone varchar(65),
+    mail varchar(75)
+)
+
+insert into Administrateur values ('Parrot', 'Vincent', '0187964613', 'vincentperret@gmail.com');
